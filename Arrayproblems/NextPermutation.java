@@ -26,7 +26,7 @@ package Arrayproblems;
 // 5. Then Reverse the array from pivot to end
 // 6. For simplicity make two fns swap and reverse and call them  
 
-
+//Medium Problem
 
 public class NextPermutation {
 

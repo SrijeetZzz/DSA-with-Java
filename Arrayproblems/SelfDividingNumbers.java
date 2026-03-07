@@ -1,17 +1,15 @@
 package Arrayproblems;
-
 import java.util.ArrayList;
-import java.util.List;
 
 public class SelfDividingNumbers {
     public static void main(String[] args){
         int left = 1;
         int right = 22;
         SelfDividingNumbers obj = new SelfDividingNumbers();
-        List<Integer> result = obj.selfDividingNumbers(left, right);
+        ArrayList<Integer> result = obj.selfDividingNumbers(left, right);
         System.out.println(result);
     }
-    public List<Integer> selfDividingNumbers(int left, int right) {
+    public ArrayList<Integer> selfDividingNumbers(int left, int right) {
         ArrayList<Integer> arr = new ArrayList<Integer>();
         for(int i=left;i<=right;i++){
             if(getNum(i)){

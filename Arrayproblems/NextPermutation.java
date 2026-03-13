@@ -1,55 +1,73 @@
 package Arrayproblems;
-// You are given an integer array representing a permutation of numbers.
 
-// Your task is to rearrange the array into the next lexicographically greater permutation. (dictionary order)
+/*
+Problem Statement:
+Given an integer array representing a permutation of numbers,
+rearrange the array into the next lexicographically greater permutation.
 
-// If such a permutation does not exist (i.e., the array is in descending order), rearrange it into the lowest possible order (ascending order).
+If such permutation is not possible (array is in descending order),
+then rearrange it into the lowest possible order (ascending order).
 
-// You must:
+Conditions:
+- Modify the array in-place
+- Use constant extra space
 
-// Modify the array in place
+Input:
+int[] nums
 
-// Use constant extra space
+Output:
+Array modified in-place to next permutation
 
-// ex 1:
-// Input:  [1, 2, 3]
-// Output: [1, 3, 2]
-// ex 2:
-// Input:  [3, 2, 1]
-// Output: [1, 2, 3]
+Example 1:
+Input:  [1, 2, 3]
+Output: [1, 3, 2]
 
-// approach:
-// 1. First initialize the ind=-1, so if the array is in sorted order then just reverse that
-// 2. Second find the pivot element from end (pivot element => find if num[n-1] < num[n] then ind==n-1) and exit from loop
-// 3. Then find the next big number from the pivot element 
-// 4. Then Swap the number with pivot element and exit from loop
-// 5. Then Reverse the array from pivot to end
-// 6. For simplicity make two fns swap and reverse and call them  
+Example 2:
+Input:  [3, 2, 1]
+Output: [1, 2, 3]
 
-//Medium Problem
+Approach:
+1. Find the pivot index from the end such that nums[i] < nums[i+1].
+   This is the first decreasing element from right.
+2. If no such index exists, the array is in descending order,
+   so reverse the entire array.
+3. Otherwise, find the next greater element from the right side of pivot.
+4. Swap pivot with that element.
+5. Reverse the subarray after pivot to get the next smallest order.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 
 public class NextPermutation {
 
     public static void nextPermutation(int[] nums) {
         int n = nums.length;
         int ind = -1;
+
+        // Step 1: find pivot
         for (int i = n - 2; i >= 0; i--) {
             if (nums[i] < nums[i + 1]) {
                 ind = i;
                 break;
             }
         }
+
+        // Step 2: if no pivot, reverse whole array
         if (ind == -1) {
             reverse(nums, 0, n - 1);
             return;
         }
 
+        // Step 3: find next greater element
         for (int i = n - 1; i > ind; i--) {
             if (nums[i] > nums[ind]) {
                 swap(nums, i, ind);
                 break;
             }
         }
+
+        // Step 4: reverse right part
         reverse(nums, ind + 1, n - 1);
     }
 
@@ -66,6 +84,7 @@ public class NextPermutation {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {1, 2, 3};
 
         nextPermutation(nums);

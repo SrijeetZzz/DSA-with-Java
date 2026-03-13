@@ -1,5 +1,42 @@
 package Arrayproblems;
 
+/*
+Problem Statement:
+Given an array of integers, count the number of inversions in the array.
+
+An inversion is defined as:
+i < j and nums[i] > nums[j]
+
+Input:
+Integer array nums
+
+Output:
+Integer → number of inversions
+
+Example:
+Input:  [2,4,1,3,5]
+Output: 3
+
+Explanation:
+Inversions are:
+(2,1), (4,1), (4,3)
+
+Approach:
+1. Use Merge Sort to divide the array.
+2. While merging two sorted halves, count inversions.
+3. If element from right half is smaller than left half,
+   then all remaining elements in left half form inversions.
+4. Add (mid - left + 1) to count.
+5. Continue merge normally.
+
+Why Merge Sort?
+Brute force → O(n^2)
+Merge sort → O(n log n)
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+*/
+
 public class InverseCount {
     
     public static int count = 0;
@@ -63,4 +100,3 @@ public class InverseCount {
 
     }
 }
-

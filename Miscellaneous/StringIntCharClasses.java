@@ -1,4 +1,4 @@
-package Arrayproblems;
+package Miscellaneous;
 
 public class StringIntCharClasses {
     public static void main(String[] args) {

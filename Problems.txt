@@ -1,0 +1,243 @@
+1–50 (PDF problems)
+
+Check Even or Odd
+
+Check Prime Number
+
+Factorial of a Number
+
+Fibonacci Series
+
+Reverse a Number
+
+Check Palindrome Number
+
+Armstrong Number
+
+Sum of Digits
+
+Largest of Three Numbers
+
+GCD of Two Numbers
+
+LCM of Two Numbers
+
+Check Leap Year
+
+Count Vowels and Consonants
+
+Reverse a String
+
+Check Anagram
+
+Remove Duplicates from String
+
+Find Second Largest in Array
+
+Linear Search
+
+Binary Search
+
+Bubble Sort
+
+Selection Sort
+
+Insertion Sort
+
+Matrix Addition
+
+Transpose of Matrix
+
+Count Frequency of Element in Array
+
+Check if Array is Sorted
+
+Merge Two Arrays
+
+Find Missing Number
+
+Count Words in String
+
+Remove Spaces from String
+
+Find Duplicate Elements in Array
+
+Move Zeros to End
+
+Rotate Array Right by 1
+
+Palindrome String
+
+Count Digits
+
+Sum of Array Elements
+
+Minimum Element in Array
+
+Pattern Printing Triangle
+
+Power of Number
+
+Decimal to Binary
+
+Binary to Decimal
+
+Perfect Number
+
+Strong Number
+
+Count Even Odd in Array
+
+Intersection of Two Arrays
+
+Check Substring
+
+Remove Character from String
+
+Sum of Primes till N
+
+Reverse Words in Sentence
+
+Two Sum Problem
+
+<!--(Sheet Problems)--!>
+
+CountNegIntsInSortedMatrix
+
+CountReversePairs
+
+FindConsecutiveOnes
+
+FindSecondLargest
+
+GCDInArray
+
+InverseCount
+
+IsSortedArray
+
+LinearSearch
+
+LongestSubarraySum
+
+MaximumSubArraySumKadane
+
+MaximumSubArraySumKadane (duplicate file)
+
+MinimumSizeSubArray
+
+MissingNumber
+
+MoveZeros
+
+NextPermutation
+
+NumSpecials
+
+RearrangeBySign
+
+RemoveDuplicates
+
+RichestCustomerWealth
+
+RotateArrayByKPosition
+
+RotateArrayByOne
+
+RotateMatrixBy90Degree
+
+RunningSum1DArray
+
+SelfDividingNumbers
+
+SingleNumberInArray
+
+SortArrayOf012s
+
+SpiralOrder
+
+TransposeOfAMatrix
+
+TwoSumUnsortedArray
+
+StringIntCharClasses
+
+StringIntCharTypeCasting
+
+IsomorphicString
+
+RemoveEveryWordInAString
+
+ReverseEveryWordInAString
+
+ValidAnagram
+
+Count Subarray with sum K
+
+Best Time To Buy And Sell Stock
+
+Leaders In Array
+
+Integer To String Atoi 
+
+Largest Odd Number In A String
+
+Longest Common Prefix String
+
+Roman To Integer
+
+Sort Character By Frequency
+
+
+
+
+
+Todo:
+
+Medium
+
+Largest Odd Number in a String
+
+Longest Common Prefix
+
+Sort Characters by Frequency
+
+Roman to Integer
+
+String to Integer (atoi)
+
+Set Matrix Zeroes
+
+Leaders in an Array
+
+Medium/Hard(Not Required)
+
+Two Sum (HashMap version)
+
+Longest Substring Without Repeating Characters
+
+Longest Consecutive Sequence
+
+Subarray Sum Equals K
+
+Kadane with indices (print subarray also)
+
+Majority Element (Boyer-Moore)
+
+Majority Element II
+
+Product of Array Except Self
+
+Container With Most Water
+
+Trapping Rain Water
+
+Valid Parentheses (Stack)
+
+Next Greater Element
+
+Sliding Window Maximum
+
+Binary Search in Rotated Sorted Array
+
+Merge Intervals
